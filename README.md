@@ -21,11 +21,11 @@ None
 Example Playbook
 ----------------
 
-Install open-vm-tools
+Install open-vm-tools on VMware guest
 ```
 - hosts: all
   roles:
-    - { role: kbrebanov.open_vm_tools }
+    - { role: kbrebanov.open_vm_tools, when: "ansible_virtualization_type == 'VMware'" }
 ```
 
 License
