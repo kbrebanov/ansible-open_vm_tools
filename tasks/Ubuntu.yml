@@ -1,0 +1,7 @@
+---
+# tasks file for open-vm-tools (Ubuntu specific)
+
+- name: Install open-vm-tools packages
+  apt: name={{ item }} state=present update_cache=yes
+  with_items: open_vm_tools_packages
+  tags: open-vm-tools
