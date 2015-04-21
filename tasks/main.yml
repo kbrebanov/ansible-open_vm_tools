@@ -12,3 +12,7 @@
 - include: Ubuntu.yml
   when: ansible_distribution == "Ubuntu"
   tags: open_vm_tools
+
+- name: Ensure open-vm-tools service is started and enabled on boot
+  service: name={{ open_vm_tools_service_name }} state=started enabled=yes
+  tags: open_vm_tools
