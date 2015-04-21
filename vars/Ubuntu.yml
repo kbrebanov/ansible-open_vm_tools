@@ -3,5 +3,3 @@
 
 open_vm_tools_packages:
   - open-vm-tools
-open_vm_tools_service_name:
-  - open-vm-tools
