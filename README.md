@@ -1,4 +1,4 @@
-open-vm-tools
+open_vm_tools
 =============
 
 Installs open-vm-tools
@@ -25,7 +25,7 @@ Install open-vm-tools
 ```
 - hosts: all
   roles:
-    - { role: kbrebanov.open-vm-tools }
+    - { role: kbrebanov.open_vm_tools }
 ```
 
 License

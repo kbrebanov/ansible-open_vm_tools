@@ -1,14 +1,14 @@
 ---
-# tasks file for open-vm-tools
+# tasks file for open_vm_tools
 
 - name: Include distribution specific variables
   include_vars: "{{ ansible_distribution }}.yml"
-  tags: open-vm-tools
+  tags: open_vm_tools
 
 - include: CentOS.yml
   when: ansible_distribution == "CentOS"
-  tags: open-vm-tools
+  tags: open_vm_tools
 
 - include: Ubuntu.yml
   when: ansible_distribution == "Ubuntu"
-  tags: open-vm-tools
+  tags: open_vm_tools

@@ -1,5 +1,5 @@
 ---
-# vars file for open-vm-tools (Ubuntu specific)
+# vars file for open_vm_tools (Ubuntu specific)
 
 open_vm_tools_packages:
   - open-vm-tools
