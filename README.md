@@ -1,6 +1,8 @@
 open_vm_tools
 =============
 
+[![Ansible Galaxy](https://img.shields.io/badge/galaxy-kbrebanov.open_vm_tools-660198.svg)](https://galaxy.ansible.com/list#/roles/3477)
+
 Installs open-vm-tools
 
 Requirements
